@@ -31,10 +31,12 @@ h2
 	margin: 0 auto
 header
 	background-image: url(img/hero.png)
-	background-position: center bottom
+	background-position: top center
 	background-repeat: no-repeat
 	padding: 0 5vw
-	min-width: 100%
+
+.navbar
+	margin-bottom: 10vh
 
 .navbar-dark .navbar-nav .nav-link
 	color: #fff
@@ -71,28 +73,29 @@ footer
 
 /* --- */
 /* Header */
-
+#logo, .navbar-toggler
+	margin-bottom: 5vh
 #hero-text
-	padding-top: 8vw
 	text-align: center
+	padding-top: 5%
 #big-hero
 	color: #fff
+	font-size: 2em
 #italic-hero
 	color: $yellow
 	font-style: italic
 	font-weight: 900
 	line-height: 1
+	font-size: 4vw
 .order-button
 	border: none
 	background-color: $yellow
 	font-weight: 700
 	padding: 1rem
-	margin-top: 3vh
 	&:hover
 		background-color: $darkYellow
 .main-product
 	text-align: center
-	margin-top: 3rem
 /* --- */
 
 /* Main section */
@@ -142,7 +145,7 @@ footer
 	background-color: $darkGrey
 	color: #fff
 	font-size: 14px
-	padding: 4vh 14vh 0
+	padding: 2% 4% 
 	p
 		color: #fff
 
