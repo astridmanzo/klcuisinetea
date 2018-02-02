@@ -29,8 +29,9 @@ h2 {
 
 header {
   background-image: url(img/hero.png);
-  background-position: top center;
+  background-position: bottom center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 0 5vw; }
 
 .navbar {
@@ -73,7 +74,7 @@ footer {
 /* --- */
 /* Header */
 #logo, .navbar-toggler {
-  margin-bottom: 5vh; }
+  margin-bottom: 8%; }
 
 #hero-text {
   text-align: center;
@@ -88,7 +89,7 @@ footer {
   font-style: italic;
   font-weight: 900;
   line-height: 1;
-  font-size: 4vw; }
+  font-size: 4em; }
 
 .order-button {
   border: none;
@@ -100,6 +101,8 @@ footer {
 
 .main-product {
   text-align: center; }
+  .main-product img {
+    max-height: 450px; }
 
 /* --- */
 /* Main section */
@@ -153,11 +156,17 @@ footer {
 /* Footer */
 footer {
   background-color: #333;
-  color: #fff;
+  color: #FFAB00;
   font-size: 14px;
   padding: 2% 4%; }
   footer p {
     color: #fff; }
+  footer ul {
+    list-style-type: none; }
+    footer ul a {
+      font-weight: 700; }
+      footer ul a:hover {
+        color: #FFAB00; }
 
 #logo-footer {
   margin-bottom: 15px; }
