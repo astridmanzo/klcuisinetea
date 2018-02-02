@@ -3,7 +3,11 @@
 /* --- --- */
 /* Color variables */
 $darkGrey: #333
+$grey: #4F4F4F
+$bgGrey: #FAFAFA
 $yellow: #FFAB00
+$darkYellow: #DE9602
+$lightGrey: #BDBDBD
 /* --- --- */
 
 /* General styling */
@@ -13,16 +17,124 @@ body
 	font-family: 'Montserrat', sans-serif
 	/* Root font size */
 	font-size: 16px
+p, h1, h2, h3, h4, h5, h6
+	color: $grey
+a
+	text-decoration: none
+	color: #fff
+	&:hover
+		text-decoration: none
+		color: #fff
+h2
+	font-weight: 600
+
 header
 	background-image: url(img/hero.png)
 	background-position: center bottom
-	padding: 0 1vw
-	min-height: 85vh
-.extra-container, footer
-	padding: 0 2vw
-/* --- --- */
-	
+	background-repeat: no-repeat
+	min-height: 90vh
+	padding: 0 5vw
 
+.navbar-dark .navbar-nav .nav-link
+	color: #fff
+	font-weight: 700
+	padding: 0 .5vw
+	margin-right: 2vw
+	&:hover
+		color: $yellow
+.order-now
+	border: solid 2px $yellow
+	border-radius: 5px
+	padding: .5vw
+footer
+	padding: 0 2vw
+
+/* --- --- */
+/* Social */
+.social
+	color: #fff
+	float: right	
+	list-style-type: none
+	padding: 0 2vw
+	li
+		display: inline-block
+		a
+			color: #fff
+			&:hover
+				color: $yellow
+		
+.social-icons 
+	font-size: 30px
+	margin-right: 2vw
+
+
+/* --- */
+/* Header */
+
+#hero-text
+	padding-top: 8vw
+	text-align: center
+#big-hero
+	color: #fff
+	font-size: 2em
+#italic-hero
+	color: $yellow
+	font-size: 3.1em
+	font-style: italic
+	font-weight: 900
+	line-height: .5
+.order-button
+	border: none
+	background-color: $yellow
+	font-weight: 700
+	padding: 1rem
+	margin-top: 3vh
+	&:hover
+		background-color: $darkYellow
+.main-product
+	text-align: center
+	margin-top: 3rem
+/* --- */
+
+/* Main section */
+#main-section
+	color: $yellow
+	font-size: 2rem
+	font-style: italic
+	font-weight: 900
+	margin: 5vh 0 15vh 0
+	text-align: center
+
+.tea-title
+	margin-bottom: 5vh
+.specs
+	line-height: 2
+	list-style-type: none
+	padding: 0
+.tea-button
+	border: none
+	background-color: $yellow
+	font-weight: 700
+	margin-top: 3vh
+	padding: 1vw
+#teas
+	margin-top: 15vh
+#hibiscus
+	margin: 15vh 0
+.contain
+	padding: 0 6vw
+.right
+	text-align: right
+.bg
+	background-color: $bgGrey
+.options
+	color: $lightGrey
+	margin-top: 1vh
+.product-img
+	max-width: 100%
+	margin-bottom: 50px
+
+/* --- */
 
 
 
@@ -30,7 +142,24 @@ header
 footer	
 	background-color: $darkGrey
 	color: #fff
-	padding-bottom: 1vw
-	padding-top: 2vw
+	font-size: 1vw
+	padding: 4vh 14vh 0
+	p
+		color: #fff
+
 #logo-footer
 	margin-bottom: 15px
+.center
+	text-align: center
+.subfooter
+	border-top: 1px solid $lightGrey
+/* --- */
+
+@media (max-width: 768px)
+	.right, .contain
+		text-align: center
+	.order-now
+		border: none
+		padding: .5vw
+
+	

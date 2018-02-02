@@ -1,102 +1,138 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KL Cuisine Tea</title>	
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>KLCuisine Ginger &amp; Hibiscus Tea</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Bootstrap style sheet-->
 	<script src="https://use.fontawesome.com/d22fd81d46.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 	<!-- Main style sheet -->
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Font Awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
 </head>
 <body>
-	<header>
-		<div class="hero">
+	<header>		
+		<div class="hero">	
+			<div class="row right">	
+				<div class="col-md-12">	
+					<ul class="social">
+						<li class="social-icons"><a target="_blank" href="https://goo.gl/5QY7dY"><i class="fab fa-facebook"></i></a></li>
+						<li class="social-icons"><a target="_blank" href="https://goo.gl/5QY7dY"><i class="fab fa-twitter-square"></i></a></li>
+					</ul>
+			</div>
+			</div>
 			<!-- Logo & Navigation -->
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<a class="navbar-brand" href="#">KL Cuisine</a>
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 				</button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto"">
-					<li class="nav-item active">
-					<a class="nav-link" href="#">FLAVORS <span class="sr-only">(current)</span></a>
-					</li>
 					<li class="nav-item">
-					<a class="nav-link" href="#">CONTACT</a>
-					</li>
+					<a class="nav-link" href="#">FLAVORS <span class="sr-only">(current)</span></a></li>
+					<li class="nav-item">
+					<a class="nav-link" target="_blank" href="https://goo.gl/5QY7dY">ORDER NOW</a>
 				</ul>
 				</div>
 			</nav>
-			<div class="row">
-				<div class="col-md-6">
-					<h1>IT WILL GET YOU</h1>
-					<h1>ANYWHERE</h1>
-					<button type="button" class="btn btn-primary">ORDER NOW</button>
+			<div class="row hero-second">
+				<div class="col-md-7 col-sm-12" id="hero-text">
+					<h1 id="big-hero">IT WILL GET YOU</h1>
+					<h1 id="italic-hero">ANYWHERE</h1>
+					<button type="button" class="btn btn-primary order-button"><a href="https://goo.gl/5QY7dY" target="_blank">ORDER NOW</a></button>
 				</div>
-				<div class="col-md-6">
-					<img src="img/product">
+				<div class="col-md-5 col-sm-12 main-product">
+					<img src="img/product.png">
 				</div>
 			</div>
 		</div>
-	</header>
-	<div class="extra-container">
+	</header>	
 		<!-- Main section -->
-		<h1>EXPERIENCE THE FLAVOR</h1>
+		<h1 id="main-section">EXPERIENCE THE FLAVOR</h1>
 		<!-- Ginger tea -->
-		<div class="row">
-			<div class="col-md-6">
-				<img src="img/ginger.png">		
-			</div>
-			<div class="col-md-6">
-				<h2>GINGER</h2>
-				<ul class="characteristics">
-					<li>Organic Ginger brewed with Fresh tea leaves</li>
-					<li>100% Natural. No added preservatives</li>
-					<li>Fruity antioxidants</li>
-					<li>Deliciously refreshing</li>
-					<li>Made From African Ginger</li>
-				</ul>
-				<button type="button" class="btn btn-primary">Primary</button>
-				<p>Get the  6, 12 or 24 packs now</p>
-			</div>
-		</div>
-		<!-- Hibiscus tea -->
-		<div class="row">	
-			<div class="col-md-6">
-				<h2>HIBISCUS</h2>
-				<ul class="characteristics">
-					<li>Organic hibiscus brewed with fresh tea leaves</li>
-					<li>100% Natural. No added preservatives</li>
-					<li>Fruity antioxidants</li>
-					<li>Deliciously refreshing</li>
-					<li>Made From African Ginger</li>
-				</ul>
-				<button type="button" class="btn btn-primary">Primary</button>
-				<p>Get the  6, 12 or 24 packs now</p>
-			</div>
-			<div class="col-md-6">
-				<img src="img/ginger.png">		
+		<div class="container contain fadeinleft">
+			<div class="row" id="ginger">
+				<div class="col-md-6">
+					<img class="product-img" src="img/ginger.png">		
+				</div>
+				<div class="col-md-6 right">
+					<h2 class="tea-title">GINGER</h2>
+					<ul class="specs">
+						<li>Organic Ginger brewed with Fresh tea leaves</li>
+						<li>100% Natural. No added preservatives</li>
+						<li>Fruity antioxidants</li>
+						<li>Deliciously refreshing</li>
+						<li>Made From African Ginger</li>
+					</ul>
+					<button type="button" class="btn order-button"><a target="_blank" href="https://goo.gl/5QY7dY">ORDER NOW</a></button>
+					<p class="options">Get the  6, 12 or 24 packs now</p>
+				</div>
 			</div>
 		</div>
-	</div>
+
+		<div class="container contain">
+			<!-- Hibiscus tea -->
+			<div class="row" id="hibiscus">	
+				<div class="col-md-6 order-md-12 right">
+					<img class="product-img" src="img/hibiscus.png">		
+				</div>
+				<div class="col-md-6 order-md-6">
+					<h2>HIBISCUS</h2>
+					<ul class="specs">
+						<li>Organic hibiscus brewed with fresh tea leaves</li>
+						<li>100% Natural. No added preservatives</li>
+						<li>Fruity antioxidants</li>
+						<li>Deliciously refreshing</li>
+						<li>Made From African Ginger</li>
+					</ul>
+					<button type="button" class="btn order-button"><a target="_blank" href="https://goo.gl/5QY7dY">ORDER NOW</a></button>
+					<p class="options">Get the  6, 12 or 24 packs now</p>
+				</div>
+				
+			</div>
+		</div>
+	
 
 	<footer>
 		<div class="row">
+			<div class="col-md-4">
+				<p>We specialise in providing online and mobile ordering and delivery of African, Caribbean and Halal food. The online and mobile platforms allow diners to order from the most popular restaurants in the East coast region.</p>				
+			</div>
+			
+			<div class="col-md-4">
+				<ul>
+					<li>FLAVORS</li>
+					<li>ORDER NOW</li>
+					<li><a href="">Privacy</a></li>
+					<li><a href="">Terms &amp; Conditions</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+
+				<p>© 2018 KLCuisine Inc.</p>
+				<p>info@klcuisine.com</p>
+				<p>Philadelphia, Pennsylvania</p>
+			</div>
+			
+		</div>
+		<div class="row subfooter">
 			<div class="col-md-9">
-				<p>© 2018 KLCuisine Inc. </p>
 				<small>Tea is not a substitute for fruits or vegetables, which provide a wide range of nutrients such as vitamins
 				and minerals. 
 				</small><br>
 				<small>Please consult your doctor regarding a diet/nutritional plan that is right for you.
-				</small>
+				</small>				
 			</div>
-
 			<div class="col-md-3">
-				<img id="logo-footer" src="img/logo-yellow.png">
-				<p>info@klcuisine.com</p>
+				<ul class="social">
+					<li class="social-icons"><a target="_blank" href="https://goo.gl/5QY7dY"><i class="fab fa-facebook"></i></a></li>
+					<li class="social-icons"><a target="_blank" href="https://goo.gl/5QY7dY"><i class="fab fa-twitter-square"></i></a></li>
+				</ul>
 			</div>
 		</div>
 	</footer>
@@ -109,5 +145,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <!-- Bootstrap JavaScript-->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
