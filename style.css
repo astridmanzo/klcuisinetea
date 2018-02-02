@@ -4,9 +4,6 @@
 /* Color variables */
 /* --- --- */
 /* General styling */
-html {
-  overflow-x: hidden; }
-
 body {
   font-family: "Montserrat", sans-serif;
   /* Root font size */
@@ -25,12 +22,17 @@ a {
 h2 {
   font-weight: 600; }
 
+.container-full {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto; }
+
 header {
   background-image: url(img/hero.png);
   background-position: center bottom;
   background-repeat: no-repeat;
-  min-height: 90vh;
-  padding: 0 5vw; }
+  padding: 0 5vw;
+  min-width: 100%; }
 
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
@@ -73,15 +75,13 @@ footer {
   text-align: center; }
 
 #big-hero {
-  color: #fff;
-  font-size: 2em; }
+  color: #fff; }
 
 #italic-hero {
   color: #FFAB00;
-  font-size: 3.1em;
   font-style: italic;
   font-weight: 900;
-  line-height: 0.5; }
+  line-height: 1; }
 
 .order-button {
   border: none;
@@ -149,7 +149,7 @@ footer {
 footer {
   background-color: #333;
   color: #fff;
-  font-size: 1vw;
+  font-size: 14px;
   padding: 4vh 14vh 0; }
   footer p {
     color: #fff; }
@@ -170,6 +170,12 @@ footer {
 
   .order-now {
     border: none;
-    padding: 0.5vw; } }
+    padding: 0.5vw; }
+
+  footer {
+    padding: 4v; }
+
+  #italic-hero {
+    font-size: 7vh; } }
 
 /*# sourceMappingURL=style.css.map */

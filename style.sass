@@ -11,8 +11,6 @@ $lightGrey: #BDBDBD
 /* --- --- */
 
 /* General styling */
-html
-	overflow-x: hidden
 body
 	font-family: 'Montserrat', sans-serif
 	/* Root font size */
@@ -27,13 +25,16 @@ a
 		color: #fff
 h2
 	font-weight: 600
-
+.container-full
+	width: 100%
+	padding: 0
+	margin: 0 auto
 header
 	background-image: url(img/hero.png)
 	background-position: center bottom
 	background-repeat: no-repeat
-	min-height: 90vh
 	padding: 0 5vw
+	min-width: 100%
 
 .navbar-dark .navbar-nav .nav-link
 	color: #fff
@@ -76,13 +77,11 @@ footer
 	text-align: center
 #big-hero
 	color: #fff
-	font-size: 2em
 #italic-hero
 	color: $yellow
-	font-size: 3.1em
 	font-style: italic
 	font-weight: 900
-	line-height: .5
+	line-height: 1
 .order-button
 	border: none
 	background-color: $yellow
@@ -142,7 +141,7 @@ footer
 footer	
 	background-color: $darkGrey
 	color: #fff
-	font-size: 1vw
+	font-size: 14px
 	padding: 4vh 14vh 0
 	p
 		color: #fff
@@ -161,5 +160,7 @@ footer
 	.order-now
 		border: none
 		padding: .5vw
-
-	
+	footer
+		padding: 4v
+	#italic-hero
+		font-size: 7vh
