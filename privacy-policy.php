@@ -15,41 +15,7 @@
 </head>
 <body>	
 	<div class="container-full">
-		<header class="heads">		
-			<div class="container">	
-				<div class="row right">	
-					<div class="col-md-12">	
-						<ul class="social">
-							<li class="social-icons"><a target="_blank" href="https://www.facebook.com/klcuisine/"><i class="fab fa-facebook"></i></a></li>
-							<li class="social-icons"><a target="_blank" href="https://twitter.com/kl_cuisine"><i class="fab fa-twitter-square"></i></a></li>
-							<li class="social-icons"><a target="_blank" href="https://www.instagram.com/klcuisines/"><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- Logo & Navigation -->
-				<nav class="navbar navbar-expand-lg navbar-dark">
-					<a class="navbar-brand" href="/"><img id="logo" src="img/logo.png"></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto"">
-						<li class="nav-item">
-						<a class="nav-link" href="/">FLAVORS</a></li>
-						<li class="nav-item">
-						<a class="nav-link" target="_blank" href="https://goo.gl/z2PwwE">ORDER NOW</a></li>
-					</ul>
-					</div>
-				</nav>
-				<div class="row">
-					<div class="col-md-12">
-						<h1 class="heads-text">PRIVACY POLICY</h1>				
-					</div>
-					
-				</div>
-			</div>
-		</header>	
+		<?php include "header2.php"  ?>
 	</div>
 
 	<div class="container">
@@ -79,45 +45,7 @@
 		</div>
 	</div>
 
-	<footer>
-		<div class="row">
-			<div class="col-md-4">
-				<p>We specialise in providing online and mobile ordering and delivery of African, Caribbean and Halal food. The online and mobile platforms allow diners to order from the most popular restaurants in the East coast region.</p>				
-			</div>
-			
-			<div class="col-md-4">
-				<ul>
-					<li><a href="../">FLAVORS</a></li>
-					<li><a href="https://goo.gl/z2PwwE">ORDER NOW</a></li>
-					<li><a href="../privacy-policy.html">PRIVACY POLICY</a></li>
-					<li><a href="../terms-of-use.html">TERMS OF USE</a></li>
-				</ul>
-			</div>
-			<div class="col-md-4">
-
-				<p>© 2018 KLCuisine Inc.</p>
-				<p>info@klcuisine.com</p>
-				<p>Philadelphia, Pennsylvania</p>
-			</div>
-			
-		</div>
-		<div class="row subfooter">
-			<div class="col-md-9">
-				<small>Tea is not a substitute for fruits or vegetables, which provide a wide range of nutrients such as vitamins
-				and minerals. 
-				</small><br>
-				<small>Please consult your doctor regarding a diet/nutritional plan that is right for you.
-				</small>				
-			</div>
-			<div class="col-md-3">
-				<ul class="social">
-					<li class="social-icons"><a target="_blank" href="https://www.facebook.com/klcuisine/"><i class="fab fa-facebook"></i></a></li>
-					<li class="social-icons"><a target="_blank" href="https://twitter.com/kl_cuisine"><i class="fab fa-twitter-square"></i></a></li>
-					<li class="social-icons"><a target="_blank" href="https://www.instagram.com/klcuisines/"><i class="fab fa-instagram"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</footer>
+	<?php include "footer.php"  ?>
 
 
 

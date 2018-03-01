@@ -15,41 +15,13 @@
 </head>
 <body>	
 	<div class="container-full">
-		<header class="heads">		
-			<div class="container">	
-				<div class="row right">	
-					<div class="col-md-12">	
-						<ul class="social">
-							<li class="social-icons"><a target="_blank" href="https://www.facebook.com/klcuisine/"><i class="fab fa-facebook"></i></a></li>
-							<li class="social-icons"><a target="_blank" href="https://twitter.com/kl_cuisine"><i class="fab fa-twitter-square"></i></a></li>
-							<li class="social-icons"><a target="_blank" href="https://www.instagram.com/klcuisines/"><i class="fab fa-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-				<!-- Logo & Navigation -->
-				<nav class="navbar navbar-expand-lg navbar-dark">
-					<a class="navbar-brand" href="/"><img id="logo" src="img/logo.png"></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto"">
-						<li class="nav-item">
-						<a class="nav-link" href="/">FLAVORS</a></li>
-						<li class="nav-item">
-						<a class="nav-link" target="_blank" href="https://goo.gl/z2PwwE">ORDER NOW</a></li>
-					</ul>
-					</div>
-				</nav>
-				<div class="row">
-					<div class="col-md-12">
-						<h1 class="heads-text">TERMS OF USE</h1>				
-					</div>
-					
-				</div>
+		<?php include "header2.php"  ?>
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="heads-text">TERMS OF USE</h1>				
 			</div>
-		</header>	
+			
+		</div>
 	</div>
 
 	<div class="container">
@@ -80,6 +52,9 @@
 				<p>You are responsible for maintaining the confidentiality and security of your Account and password and for all activities or any other actions that occur under or are taken in connection with your password or Account. You agree to:</p>
 
 				<p>(a) immediately notify KLcuisine of any known or suspected unauthorized use(s) of your password or Account, or any known or suspected breach of security, including loss, theft, or unauthorized disclosure of your password or credit card information; and (b) ensure that you exit from your Account at the end of each session.KLcuisine will not be liable for any injury, loss or damage of any kind arising from or relating to your failure to comply with (a) and (b) or for any acts or omissions by you or someone else using your Account and/or password.</p>
+
+				<h2>RETURN POLICY</h2>
+				<p>All purchases are final, non-refundable and non-exchangeable</p>
 
 				<h2>OUR ALCOHOLIC BEVERAGES POLICY</h2>
 				<p>Some jurisdictions permit the ordering and delivery of alcoholic beverages. In such jurisdictions, if you place an order that includes any alcoholic beverage, you acknowledge that you are at least 21 years of age. Upon delivery or pickup, as applicable, you shall present a government-issued identification card, evidencing your age. If you do not comply with these terms, you agree that the alcoholic beverage(s) will not be released to you, and you shall forfeit the cost of such beverages.</p>
@@ -149,10 +124,10 @@
 			
 			<div class="col-md-4">
 				<ul>
-					<li><a href="../">FLAVORS</a></li>
+					<li><a href="../store">FLAVORS</a></li>
 					<li><a href="https://goo.gl/z2PwwE">ORDER NOW</a></li>
-					<li><a href="../privacy-policy.html">PRIVACY POLICY</a></li>
-					<li><a href="../terms-of-use.html">TERMS OF USE</a></li>
+					<li><a href="../store/privacy-policy.html">PRIVACY POLICY</a></li>
+					<li><a href="../store/terms-of-use.html">TERMS OF USE</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4">
